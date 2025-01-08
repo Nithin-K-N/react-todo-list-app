@@ -1,15 +1,35 @@
-# react-todo-list-app
-  - A simple yet functional To-Do List application built with React.
-  - This app allows users to manage tasks by adding, editing, deleting, and marking them as completed.
-  - It features task filtering, persistence using local storage, and a responsive user interface.
+# TODO app
+A simple, elegant To-Do app built with Next.js, Tailwind CSS, and TypeScript, showcasing modern web development practices. This project focuses on mastering React fundamentals, state management, and building a component-based architecture.
 
-# TODO
- A great project for learning React fundamentals and state management, basic idea :
-  1. Description: A simple app that allows users to add, remove, and mark tasks as completed.
-  2. Skills: React state management, event handling, component structure.
-  3. Features:
-      - Add new tasks.
-      - Mark tasks as completed.
+# Description
+A user-friendly app that allows users to manage their tasks efficiently with features such as adding, editing, deleting, and filtering tasks. The app is built with a focus on performance, scalability, and responsiveness.
+
+# Skills
+  - React: Component-based architecture, hooks for managing state and lifecycle.
+  - Next.js: Server-side rendering (SSR) and static site generation (SSG) capabilities. 
+  - TypeScript: Strongly typed components and application structure.
+  - Tailwind CSS: Utility-first CSS framework for rapid UI design.
+  - State Management: ??Using Zustand for a lightweight and intuitive state management solution.
+
+# Features:
+  1. Task Management:
+      - Add new tasks with a title and optional description.
+      - Edit existing tasks.
+      - Mark tasks as completed or pending.
       - Delete tasks.
-      - Filter tasks by "All," "Completed," and "Pending."
-  4. Tech Stack: React, Local Storage (for persisting tasks).
+
+  2. View tasks filtered by:
+      - All: Displays all tasks.
+      - Completed: Displays only completed tasks.
+      - Pending: Displays tasks yet to be completed.
+
+  3. Responsive Design:
+      - Fully responsive design optimized for all screen sizes using Tailwind CSS.
+  4. Data Persistence:
+      - Tasks are saved in local storage, ensuring data is retained across sessions.
+
+# Tech Stack 
+  1. ui
+      - React, NextJS, TailwindCSS.
+
+  2. State Management
