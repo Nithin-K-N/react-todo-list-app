@@ -9,10 +9,10 @@ export default function RootLayout({
   return (
     <html 
       lang="en"
-      className="h-full w-full"
+      className=" h-full "
     >
       <body
-        className={`flex h-full w-full`}
+        className={` h-full `}
       >
         {children}
       </body>
